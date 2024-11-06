@@ -86,7 +86,7 @@ namespace CalRemix.UI
         public void StopTalking()
         {
             if (currentMessage == null || !currentMessage.NoCooldownAfterSpeaking)
-                talkCooldown = 60;
+                talkCooldown = 216000;
             currentMessage = null;
         }
         #endregion
